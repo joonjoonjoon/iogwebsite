@@ -7,6 +7,9 @@
   background-color:#00bebe;
   color: #ffffff;
 }
+.teal-bg a {
+  color: #fff;
+}
 .teal {
   color:#00bebe;
 }
@@ -17,10 +20,11 @@ section {
 .center {
   text-align: center;
 }
-.button-on-teal{
+.teal-bg .button-on-teal{
   background-color:#fff;
   color: #00bebe;
 }
+
 .quote {
   padding-left:40px;
 }
