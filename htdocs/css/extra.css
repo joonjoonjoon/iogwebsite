@@ -1,0 +1,30 @@
+.space-100 {  margin-top:100px; } 
+.space-75 {  margin-top:75px; } 
+.space-50 {  margin-top:50px; }
+.space-25 {  margin-top:25px; }
+
+.teal-bg {
+  background-color:#00bebe;
+  color: #ffffff;
+}
+.teal {
+  color:#00bebe;
+}
+
+section {
+  overflow: hidden;
+}
+.center {
+  text-align: center;
+}
+.button-on-teal{
+  background-color:#fff;
+  color: #00bebe;
+}
+.quote {
+  padding-left:40px;
+}
+.button-on-teal2 {
+  color:#fff;
+  border-color: #fff;
+}
