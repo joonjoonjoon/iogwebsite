@@ -36,7 +36,7 @@ section {
   border-color: #fff;
 }
 
-body {
+.mainbody {
   background: url("../images/bg_002.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
