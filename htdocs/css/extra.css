@@ -139,20 +139,20 @@ section {
   -o-background-size: contain;
 
     background-image: url(../images/TEST.png);
-    -webkit-animation: scrolling 40s linear infinite;
-    -moz-animation: scrolling 40s linear infinite;
-    -o-animation: scrolling 40s linear infinite;
-    animation: scrolling 40s linear infinite;
+    -webkit-animation: scrolling 100s linear infinite;
+    -moz-animation: scrolling 100s linear infinite;
+    -o-animation: scrolling 100s linear infinite;
+    animation: scrolling 100s linear infinite;
     transform: translateZ(0);
 }
 
 
 @media (min-width: 550px) {
 .patternbg {
-    -webkit-animation: scrolling 10s linear infinite;
-    -moz-animation: scrolling 10s linear infinite;
-    -o-animation: scrolling 10s linear infinite;
-    animation: scrolling 10s linear infinite;
+    -webkit-animation: scrolling 40s linear infinite;
+    -moz-animation: scrolling 40s linear infinite;
+    -o-animation: scrolling 40s linear infinite;
+    animation: scrolling 40s linear infinite;
 }
 
 @-webkit-keyframes scrolling {
