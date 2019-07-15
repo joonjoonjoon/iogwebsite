@@ -1,10 +1,13 @@
-.space-100 {  margin-top:100px; } 
-.space-75 {  margin-top:75px; } 
-.space-50 {  margin-top:50px; }
-.space-25 {  margin-top:25px; }
+.space-100 {  margin-top:100px; line-height: 0;} 
+.space-75 {  margin-top:75px; line-height: 0;} 
+.space-50 {  margin-top:50px; line-height: 0;}
+.space-25 {  margin-top:25px; line-height: 0;}
+.space-10 {  margin-top:10px; line-height: 0;}
+.space-5 {  margin-top:5px; line-height: 0;}
+.space-last {  margin-top:0px; line-height: 2;}
 
 .teal-bg {
-  background-color:#00bebe;
+  background-color:rgba(0,0,0,0.5);
   color: #ffffff;
 }
 .teal-bg a {
@@ -22,7 +25,7 @@ section {
 }
 .teal-bg .button-on-teal{
   background-color:#fff;
-  color: #00bebe;
+  color: rgba(0,0,0,0.5);
 }
 
 .quote {
@@ -32,3 +35,111 @@ section {
   color:#fff;
   border-color: #fff;
 }
+
+body {
+  background: url("../images/bg_002.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-link {
+  color: #fff343;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.35);
+  border: 0;
+}
+
+.logo {
+          max-width: 78%;
+}
+
+.title {
+    color: #fff343;
+    font-size: 27px;
+    letter-spacing: 9px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.35);
+    font-weight: 700;
+}
+
+.indent {
+  padding-left:31px;
+}
+
+
+.schedule {
+    border: #00bebe 1px;
+    /* border-width: 1px; */
+    /* border-style: dashed; */
+    padding: 45px;
+    /* padding-top: 10px; */
+    /* margin-bottom: 20px; */
+    background-color: rgba(0,255,255,0.2);
+}
+
+
+.square-1 {
+  cursor:zoom-in;
+  float:left;
+  position: relative;
+  width: 100%;
+  padding-bottom : 50%; /* = width for a 1:1 aspect ratio */
+  margin-bottom: 3px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.square-2 {
+  cursor:zoom-in;
+  float:left;
+  position: relative;
+  width: 100%;
+  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+  margin-bottom: 3px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.square-3 {
+  cursor:zoom-in;
+  float:left;
+  position: relative;
+  width: 100%;
+  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+  margin-bottom: 3px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+
+.imgrow {
+  margin-bottom:30px;
+}
+
+.patternbg {
+    background-attachment: fixed;
+    background-image: url(../images/TEST.png);
+    -webkit-animation: scrolling 40s linear infinite;
+    -moz-animation: scrolling 40s linear infinite;
+    -o-animation: scrolling 40s linear infinite;
+    animation: scrolling 40s linear infinite;
+    transform: translateZ(0);
+}
+
+@-webkit-keyframes scrolling {
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position: 100% -200%;
+  }
+}
+
+
+/* yellow fff343 */

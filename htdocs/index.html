@@ -27,7 +27,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -35,10 +35,20 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/extra.css">
+  <link rel="stylesheet" href="css/modal.css">
+
+
+  <script type="text/javascript" src="js/lazyload.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/modal.js"></script>
+  <script type="text/javascript" src="js/showdown.min.js"></script>
+  
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+
   <!-- Randomized images script
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript">
@@ -66,151 +76,144 @@ function getRandomImage2(imgAr, path) {
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-  <nav class="navbar">
-    <div class="row">
-      <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#event">Events</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#">Home</a></li>
-      </ul>
-    </div>
-  </nav>
-
-
-  <section class="section1" id="home">
-    <div class="container">
-      <div class="space-25">&nbsp;</div>
+  <div class="patternbg">
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <nav class="navbar">
       <div class="row">
-        <div style="text-align:center">
-          <img class="u-max-full-width" src="images/logo.png">
-        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#event">Events</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">Home</a></li>
+        </ul>
       </div>
+    </nav>
 
-      <div class="space-50">&nbsp;</div>
 
-      <div class="row" >
-        <h3 class="teal center">Art &amp; Games should be friends</h3>
-        <p>
-          Isle of Games is a diverse group of individuals exploring the intersection between games and art. 
-          The group consists of game developers, artists and other people who are passionate about the weird, the beautiful, 
-          the artistic, and the cultural side of video games and their extended family.
-        </p>
-      </div>
-
-      <form action="https://tinyletter.com/IsleOfGames" method="post" target="popupwindow" 
-      onsubmit="window.open('https://tinyletter.com/IsleOfGames', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    <section class="section1" id="home">
+      <div class="container">
+        <div class="space-25">&nbsp;</div>
         <div class="row">
-          <div class="nine columns">
-              <input type="text" style="width:100%; margin-bottom:0;" name="email" id="tlemail" placeholder="Sign up to find out about future events!" />
-              <input type="hidden" value="1" name="embed"/>
+          <div style="text-align:center">
+            <img class="u-max-full-width logo" src="images/logo_002b.png">
           </div>
-          <div class="three columns">
-              <input  class="button-primary" style="width:100%; margin-bottom:0;" type="submit" value="Subscribe" />
-          </div>
-          
         </div>
-        <div style="text-align:right;color:#bbb; font-size:10px; margin-top:5px;">TinyLetter's <a href="https://mailchimp.com/legal/privacy/" target="_blank">privacy policy</a></div>
 
-      </form>
+        <div class="space-50">&nbsp;</div>
 
-      <div class="space-50">&nbsp;</div>
-
-    </div>
-  </section>
-
-  <section class="section2 teal-bg" id="event">
-    <div class="container">
-        <div class="space-100">&nbsp;</div>
-        <div class="row" >
-          <div class="eight columns">
-            
-            <h3>A day of games, art and music.</h3>
-            <h5>Isle of Games 002 - July 28th - <a href="https://idnorvk.is/" target="_blank">Iðnó</a></h5>
-
-            <p>
-				<b>Isle of Games 002</b> is the second installation of Isle of Games, a one day event that showcases alternative games and playful media from Iceland and abroad.
-				At Isle of Games you can experience the weird, the beautiful, the artistic, and the cultural side of modern video games and its extended family.
-            </p>
-            <p>
-				Before the exhibition opens, you can attend short talks by artists featured at the exhibition. 
-				In the main hall of <a href="https://idnorvk.is/" target="_blank">IÐNÓ</a> you can play games in custom installations from Icelandic as well as global creators from the alternative game and art scene.
-            </p>
-            <p>
-                We will close Isle of Games with <b>Live Game / Live Music</b>, a unique choreography between music and games that filled the house last year, don’t miss it!
-            </p>
-			<p>
-                We invite people of all ages and backgrounds to come and explore the artistic and cultural potential of the works on display.
-				Join us for Isle of Games 002!
-            </p>
-
-            <a class="button button-on-teal" href="https://www.facebook.com/events/1215050655339604/" target="_blank">Facebook event</a>
-            <br>            
-            <a class="button button-on-teal2" href="./saferspace/">Safer space policy</a>
-            <a class="button button-on-teal2" href="./accessibility/">Accessibility</a>
-            
-          </div>
-          <div class="four columns">
-            <!--<img class="u-max-full-width" src="images/iog001/iog07.jpg">-->
-			<script type="text/javascript">getRandomImage2(random_images_array_2);</script>
-			<script type="text/javascript">getRandomImage(random_images_array);</script>
-            <p><small><i>Isle of Games 001 - 2018</i></small></p>
+        <div class="row">
+          <div style="text-align:center" >
+            <h2 class="title"> ISLE OF GAMES 002 — JULY 28 — IÐNÓ</h1>
           </div>
         </div>
         <div class="space-25">&nbsp;</div>
-        <h5>Past events</h5>
-        <ul><li>
-          May 19 2018 <a href="https://medium.com/@jonatan.van.hove/isle-of-games-001-f646f6e2cc27" target="_blank"><b>Isle of Games 001</b></a>
-        </li>
-		<li>
-          April 6-8 2018 <a href="https://medium.com/@jonatan.van.hove/how-to-start-a-scene-bef6deb610d6" target="_blank"><b>Art + Games workshop @ Iðnó</b></a>
-        </li></ul>
-        <div class="space-75">&nbsp;</div>
-      </div>
-    </div>
-  </section>
 
-  <section class="section3" id="about">
-      <div class="container">
-          <div class="space-100">&nbsp;</div>
-          
-          <div class="row" >
-            <h5>How did we get here?</h5>
-            
-            <p>
-              What is the state of video games in 2018? For most of video game history, even making a simple game required large amounts of technical know-how. 
-              It’s as if every time you want to write a book you had to first design and build an entire printing press before you wrote the first word. 
-              The result is that the early history of video games is largely made up of the creative efforts of engineers. 
-              That’s not to say that engineers can’t make culturally relevant games but if the only writers in the world were those who could also build and 
-              maintain printing presses, literature would look very different.
-            </p>
-            <p>
-              This has been slowly changing in the past decade as tools have become increasingly accessible. 
-              Although some of these tools are still complex to learn and use, you at least no longer need to know how to build a printing press, 
-              just how to operate one. 
-              This has resulted in an explosion of games from young people, and those who simply were not able to make them before.
-              The variety of games made with a clear expressive intent is bigger than ever, and they deserve to be considered in a public forum just like art in any other medium.
-            </p>
-            <h5>About us</h5>
-            <p>
-              With Isle of Games, we are attempting to boost the cultural acceptance of games as an artistic and culture bearing medium. We will do this by creating a platform for Icelandic as well as international artists working with games, and by building bridges between games and other media. We will exhibit games but also non-interactive pieces, musical performances, and other works that have a strong connection to alternative games culture.
-            </p>
-            <p>
-              Send us an  <a href="mailto:hello@isleofgames.is">email</a> if you have questions about our event, or if you are working on something you think we might be interested in.
-            </p>
-          </div>
 
-          <div class="space-100">&nbsp;</div>
-
-        </div>
       </div>
     </section>
 
-    <section class="section4 teal-bg" id="contact">
+    <section class="section2 teal-bg" id="event">
       <div class="container">
+        <div class="space-50">&nbsp;</div>
+        <div class="row" >
+          <div class="twelve columns">
+            
+            <h3>A day of games, art and music.</h3>
+            <!-- <h5>Isle of Games 002 - Sunday July 28 - <a href="https://idnorvk.is/" target="_blank">IÐNÓ</a></h5> -->
+            <p>
+              <b>Isle of Games 002</b> is a one day event that showcases alternative games and playful media from Iceland and abroad.
+              In the main hall of <a href="https://idnorvk.is/" target="_blank">IÐNÓ</a> you can experience the weird, the beautiful, the artistic, and the cultural side of modern video games and its extended family. 
+            </p>
+            <div class="schedule">
+              <h3>Schedule</h3>
+              <h5>14:00 — Artist Talks</h5>
+              <p class="indent">The organizers will introduce the festival, after which we present a series of 5 to 10 minute talks by artists from the games scene, or other disciplines who have come in contact with games.</p>
+              <h5>15:30 — Game Expo opens</h5>
+              <p class="indent">After the talks, we will open the game expo. 9 new games made by Iceland-based creators, and one international commission. Each game will be presented in a custom installation.</p>
+              <h5>20:00 — Live Games Live Music</h5>
+              <p class="indent">In the evening, we open the stage with live game performances. With local musicians, we create an experimental improvisation using music, poetry or comedy, rooted in video games. </p>
+            </div>
+            
+            
+            <div class="space-25">&nbsp;</div>
+
+            <a class="button button-on-teal" href="https://www.facebook.com/events/1215050655339604/" target="_blank">Facebook event</a>
+            <a class="button button-on-teal2" href="./saferspace/">Safer space policy</a>
+            <a class="button button-on-teal2" href="./accessibility/">Accessibility</a>
+
+            <div class="space-25">&nbsp;</div>
+          </div>
+        </div>
+        
+        <div class='row imgrow'>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog01.jpg");'></div>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog02.jpg");'></div>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog03.jpg");'></div>
+        </div>
+        <div class='row imgrow'>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog04.jpg");'></div>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog05.jpg");'></div>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog06.jpg");'></div>
+        </div>
+        <div class='row imgrow'>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog07.jpg");'></div>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog08.jpg");'></div>
+          <div class='four columns square-3 popup-div' style='background-image:url("images/iog09.jpg");'></div>
+        </div>
+        
+        <div class="row" >
+          <div class="four columns">
+            <!-- <img class="u-max-full-width" src="images/iog001/iog07.jpg">
+            <script type="text/javascript">getRandomImage2(random_images_array_2);</script>
+            <script type="text/javascript">getRandomImage(random_images_array);</script> -->
+            <p><small><i>Photos by Ben Gruber, Isle of Games 001 - 2018</i></small></p>
+          </div>
+        </div>
+        
+        <div class="space-25">&nbsp;</div>
+
+        <h5>Past events</h5>
+        <ul>
+          <li>
+            <a href="https://medium.com/@jonatan.van.hove/isle-of-games-001-f646f6e2cc27" target="_blank"><b>Isle of Games 001</b></a> <i>— May 19 — 2018</i>
+          </li>
+          <li>
+            <a href="https://medium.com/@jonatan.van.hove/how-to-start-a-scene-bef6deb610d6" target="_blank"><b>Art + Games workshop @ Iðnó</b></a> <i>— April — 2018</i>
+          </li>
+        </ul>
+        <div class="space-75">&nbsp;</div>
+      
+        <div class="row" >
+          <div class="twelve columns">
+            <div class="schedule">
+                <h3 class="teal center">Art &amp; Games should be friends</h3>
+                <p>
+                  Isle of Games is a diverse group of individuals exploring the intersection between games and art. 
+                  The group consists of game developers, artists and other people who are passionate about the weird, the beautiful, 
+                  the artistic, and the cultural side of video games and their extended family.
+                </p>
+
+              <form action="https://tinyletter.com/IsleOfGames" method="post" target="popupwindow" 
+              onsubmit="window.open('https://tinyletter.com/IsleOfGames', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                <div class="row">
+                  <div class="nine columns">
+                      <input type="text" style="width:100%; margin-bottom:0;" name="email" id="tlemail" placeholder="Sign up to find out about future events!" />
+                      <input type="hidden" value="1" name="embed"/>
+                  </div>
+                  <div class="three columns">
+                      <input  class="button-primary" style="width:100%; margin-bottom:0;" type="submit" value="Subscribe" />
+                  </div>
+                  
+                </div>
+                <div style="text-align:right;color:#bbb; font-size:10px; margin-top:5px;">TinyLetter's <a href="https://mailchimp.com/legal/privacy/" target="_blank">privacy policy</a></div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
         <div class="space-25">&nbsp;</div>
 
         <div class="row">
@@ -232,10 +235,11 @@ function getRandomImage2(imgAr, path) {
         <div class="space-25">&nbsp;</div>
       </div>
     </section>
-    
-    <!-- testing auto deploy -->
+      
+      <!-- testing auto deploy -->
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </div>
 </body>
 </html>
