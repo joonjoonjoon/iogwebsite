@@ -90,7 +90,10 @@ section {
   margin-bottom: 3px;
   background-position:center center;
   background-repeat:no-repeat;
-  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .square-2 {
@@ -102,7 +105,10 @@ section {
   margin-bottom: 3px;
   background-position:center center;
   background-repeat:no-repeat;
-  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .square-3 {
@@ -128,6 +134,9 @@ section {
 .patternbg {
     background-attachment: fixed;
     background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 
     background-image: url(../images/TEST.png);
     -webkit-animation: scrolling 40s linear infinite;
