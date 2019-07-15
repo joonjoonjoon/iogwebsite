@@ -124,6 +124,8 @@ body {
 
 .patternbg {
     background-attachment: fixed;
+    background-size: contain;
+
     background-image: url(../images/TEST.png);
     -webkit-animation: scrolling 40s linear infinite;
     -moz-animation: scrolling 40s linear infinite;
@@ -132,12 +134,13 @@ body {
     transform: translateZ(0);
 }
 
+
 @-webkit-keyframes scrolling {
   from{
       background-position: 0 0;
   }
   to{
-      background-position: 100% -200%;
+      background-position: 0 -200%;
   }
 }
 
