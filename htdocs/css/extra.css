@@ -114,7 +114,10 @@ section {
   margin-bottom: 3px;
   background-position:center center;
   background-repeat:no-repeat;
-  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
