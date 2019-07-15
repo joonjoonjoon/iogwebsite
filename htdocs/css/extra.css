@@ -6,6 +6,19 @@
 .space-5 {  margin-top:5px; line-height: 0;}
 .space-last {  margin-top:0px; line-height: 2;}
 
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
 .teal-bg {
   background-color:rgba(0,0,0,0.5);
   color: #ffffff;
@@ -59,10 +72,15 @@ section {
 
 .title {
     color: #fff343;
-    font-size: 27px;
+    font-size: 58px;
     letter-spacing: 9px;
     text-shadow: 0px 0px 5px rgba(0,0,0,0.35);
-    font-weight: 700;
+    font-weight: 900;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff343;
+    font-family: "League Spartan";
+    line-height: 81px;
+    -webkit-text-fill-color: #122600;
 }
 
 .indent {
@@ -167,3 +185,19 @@ section {
 
 
 /* yellow fff343 */
+
+h3 {
+    font-family: "League Spartan";
+    color: #fff343;
+}
+p {
+    margin-top: 0;
+    letter-spacing: 0.05em;
+}
+h5 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    font-family: "League Spartan";
+}
+
