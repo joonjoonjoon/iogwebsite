@@ -153,9 +153,10 @@ section {
     -moz-animation: scrolling 40s linear infinite;
     -o-animation: scrolling 40s linear infinite;
     animation: scrolling 40s linear infinite;
+  }
 }
 
-@-webkit-keyframes scrolling {
+@keyframes scrolling {
   from{
       background-position: 0 0;
   }
