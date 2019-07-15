@@ -147,7 +147,7 @@ section {
 }
 
 
-@media (min-width: 550px) {
+@media (min-device-width: 550px) {
 .patternbg {
     -webkit-animation: scrolling 40s linear infinite;
     -moz-animation: scrolling 40s linear infinite;
