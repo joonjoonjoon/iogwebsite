@@ -223,7 +223,3 @@
     .popover-item:first-child .popover-link:hover:after {
       border-bottom-color: #00bebe; }
   }
-  .navbar {
-    position:sticky;
-    top:0;
-  }

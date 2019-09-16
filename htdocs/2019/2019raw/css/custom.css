@@ -1,10 +1,5 @@
 .container {
     max-width: 800px; }
-.for-photos {
-    max-width: 100%;}
-.image-for-photos{
-	margin: 10px;
-	max-width: 400px}
   .header {
     margin-top: 6rem;
     text-align: center; }
@@ -112,11 +107,7 @@
       height: 100%;
       left: 0;
       max-height: none; }
-	  .image-for-photos{
-	margin: 20px;
-	max-width: 430px}
   }
-
   
   /* Larger than tablet */
   @media (min-width: 750px) {
