@@ -390,3 +390,7 @@ blockquote p:last-child {
 video {
   width:100%;
 }
+
+.navbar {
+  position:sticky;
+}
