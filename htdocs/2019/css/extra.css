@@ -150,7 +150,7 @@ section {
 }
 
 .patternbg {
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-size: contain;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -161,16 +161,16 @@ section {
     -moz-animation: scrolling 100s linear infinite;
     -o-animation: scrolling 100s linear infinite;
     animation: scrolling 100s linear infinite;
-    transform: translateZ(0);
+    transform: translateZ(0); */
 }
 
 
 @media (min-device-width: 550px) {
 .patternbg {
-    -webkit-animation: scrolling 40s linear infinite;
+    /* -webkit-animation: scrolling 40s linear infinite;
     -moz-animation: scrolling 40s linear infinite;
     -o-animation: scrolling 40s linear infinite;
-    animation: scrolling 40s linear infinite;
+    animation: scrolling 40s linear infinite; */
   }
 }
 
