@@ -167,14 +167,14 @@ A reflection is something bending or bouncing - shifting - back to you: light, s
 
 _SHIFT was shown on the Outlaw, a dedicated Walking Simulator arcade we built for Isle of Games 2018. It has one big button to walk, and a trackball to look around._
 
-* __Created by__ [Alexandra Bjargardóttir]
+* __Created by__ [Alexandra Diljá Bjargardóttir]
 * __Game website__ [itch.io][shiftitch].
 
 
 $imgrow shift-converted.jpg outlaw.jpg
 $space 25
 
-[Alexandra Bjargardóttir]:https://alexandrabjarg.itch.io/
+[Alexandra Diljá Bjargardóttir]:https://alexandrabjarg.itch.io/
 [shiftitch]:https://alexandrabjarg.itch.io/shift
 
 ### Svartkolla
