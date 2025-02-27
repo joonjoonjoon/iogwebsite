@@ -9,3 +9,7 @@
 7. Execute `deploy.sh` or `deploy.bat`
 
 <3 
+
+other notes
+- hosted on joon.be, managed by Joon
+- registered on isnic.is, managed by Joi
